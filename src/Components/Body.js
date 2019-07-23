@@ -4,6 +4,7 @@ import {
   Row,
   Col
  } from 'react-bootstrap';
+import BreweryCard from './BreweryCard';
 
 class Body extends Component {
   render () {
@@ -11,15 +12,7 @@ class Body extends Component {
       <Container>
         {/* resizing columns based on screen size to hold cards with brewery info */}
         <Row>
-          <Col xs={12} sm={8} md={6} lg={4}>
-          xs=12 sm=8 md=6 lg=4
-          </Col>
-          <Col xs={12} sm={8} md={6} lg={4}>
-          xs=12 sm=8 md=6 lg=4
-          </Col>
-          <Col xs={12} sm={8} md={6} lg={4}>
-          xs=12 sm=8 md=6 lg=4
-          </Col>
+          <BreweryCard />
         </Row>
 
       </Container>

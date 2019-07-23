@@ -5,10 +5,10 @@ import SearchForm from './SearchForm';
 class Header extends Component {
   render () {
     return (
-      <Jumbotron>
-        <h1>Brewery Near You</h1>
+      <Jumbotron className="Header">
+        <h1>Beer Me</h1>
         <p>
-          This is a simple search app to help you find a breweries all over the USA.
+          This is a simple search app to help you find breweries all over the USA.
         </p>
         <SearchForm />
       </Jumbotron>

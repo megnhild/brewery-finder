@@ -5,7 +5,7 @@ import {
   Col
  } from 'react-bootstrap';
 
-class Results extends Component {
+class SearchResults extends Component {
   render () {
     return (
       <Container>
@@ -42,4 +42,4 @@ class Results extends Component {
   }
 }
 
-export default Results;
+export default SearchResults;

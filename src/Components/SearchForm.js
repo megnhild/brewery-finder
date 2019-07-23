@@ -11,7 +11,7 @@ class SearchForm extends Component {
     return (
       <Form inline>
         <FormGroup controlId="formInlineSearchInput">
-          <FormControl type="search" placeholder="enter something..." />
+          <FormControl type="search" placeholder="Find a brewery in your state here" />
         </FormGroup>
         {' '}
         <Button type="submit">

@@ -1,17 +1,18 @@
 import React, { Component } from 'react';
-import { Jumbotron } from 'react-bootstrap';
 import SearchForm from './SearchForm';
 
 class Header extends Component {
   render () {
     return (
-      <Jumbotron className="Header">
-        <h1>Beer Me</h1>
-        <p>
-          This is a simple search app to help you find breweries all over the USA.
-        </p>
-        <SearchForm />
-      </Jumbotron>
+
+      <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+          <h1 class="display-4">Beer Me</h1>
+          <p class="lead">This is a simple search app to help you find breweries all over the USA.</p>
+          <SearchForm />
+        </div>
+      </div>
+
     )
   }
 }
